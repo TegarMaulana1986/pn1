@@ -1,0 +1,1 @@
+SELECT siswa.nama_siswa,siswa.kode_siswa,kelas_siswa.kode_siswa FROM siswa,kelas_siswa WHERE kelas_siswa.kode_kelas='K015' and kelas_siswa.kode_siswa=siswa.kode_siswa
